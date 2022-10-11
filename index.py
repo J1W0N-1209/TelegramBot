@@ -14,13 +14,13 @@ school_lunch = ""
 for i in li:
     school_lunch = school_lunch + i.text + "\n"
 
-Token = "5485581826:AAHFzbxotsq-NlguKB6iiMWM9sU4Oi_mbBs"
+Token = "Token"
 bot = telegram.Bot(token=Token)
 
 # for i in bot.getUpdates():
 #     print(i.message)          ID Check 
 
-bot.send_message(5158387228,school_lunch)
+bot.send_message(ID,school_lunch)
 
 
 
